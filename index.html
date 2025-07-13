@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            </ul>
+        </nav>
+        <div class="container"></div>
+    </header>
+    <main class="main, main-conteiner">
+        <div class="container main-conteiner">
+             <section class="section section-profile">
+                <img src="assets/img/7.ico" class="section-profile-photo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Artem Kostin</h1>
+                    <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <p>
+                    <ul class="section-list">
+                        <li class="section-item">Irkutsk, Russia</li>
+                        <li class="section-item">Email: <a href="maj.blinkovsky@gmail.com" class="contacts-link">maj.blinkovsky@gmail.com</a></li>
+                        <li class="section-item">Github: <a href="https://github.com/KeslerSW" class="contacts-link">KeslerSW</a></li>
+                        <li class="section-item">Telegram: <a href="https://t.me/Kesler_SW" class="contacts-link">@Kesler_SW</a></li>
+                        <li class="section-item">Discord: <a href="https://discordapp.com/users/158586258979815424" class="contacts-link">@KeslerSW</a></li>
+                    </ul>
+                </p>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for me. 
+                I have completed several training projects and now I would like to take part in the creation of a real JavaScript project. 
+                My goal is to learn a pure JavaScript at a good level and learn the React library. I will be glad to join the creation of open source projects. 
+                I would like to work under the guidance of an experienced developer to gain practical experience.
+                </p>
+            </section>
+            <section class="section" id="skills"><h2 class="section-title">Skills</h2>
+                <p>
+                    <ul class="section-list">
+                        <li class="section-item">Web-development:<span class="text-color"> HTML5, CSS3, JavaScript</span></li>
+                        <li class="section-item">Frameworks and libraries:<span class="text-color"> React</span></li>
+                        <li class="section-item">Version control:<span class="text-color"> GIT, Github</span></li>
+                        <li class="section-item">Graphics:<span class="text-color"> Figma</span></li>
+                    </ul>
+                </p>
+            </section>
+            <section class="section" id="code"><h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+function factorial(n) {
+    if(n < 0) return null;
+    if (n <= 1) return 1;
+    return n * factorial(n-1);
+    }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <p>
+                    <ul class="section-list">
+                        <li class="section-item">Hexlet - <span class="text-color"> JavaScript for beginner</span></li>
+                        <li class="section-item">LoftSchool - <span class="text-color"> Comprehensive training JavaScript</span></li>
+                        <li class="section-item">Udemy - <span class="text-color"> Web Development By Doing: HTML / CSS</span></li>
+                        <li class="section-item">Udemy - <span class="text-color"> React + Redux - Professional Development</span></li>
+                    </ul>
+                </p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p>
+                    <ul class="section-list">
+                        <li class="section-item"><a href="https://github.com/KeslerSW/rsschool-cv/tree/master" class="contacts-link"> CV with HTML and CSS</a></li>
+                        <li class="section-item">In progress</li>
+                        <li class="section-item">In progress</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="section-end" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>
+                    Irkutsk National Research Technical University
+                </p>
+            </section>
+            <section class="section-end" id="english">
+                <h2 class="section-title">English</h2>
+                <p>
+                    B1 - Pre-Intermediate
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="conteiner footer-conteiner">
+            <p>© 2025 <a href="https://github.com/KeslerSW" class="footer-link">KeslerSW</a></p>
+        </div>
+        <div>
+            <a href="https://app.rs.school/" class="rss"></a>
+        </div>
+    </footer>
+</body>
+</html>
