@@ -1,1 +1,1 @@
-https://KeslerSW.github.io/rsschool-cv/
+https://KeslerSW.github.io/rsschool-cv/index
