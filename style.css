@@ -5,6 +5,7 @@ html {
     scroll-behavior: smooth;
 }
 .nav-list {
+    max-width: 1440px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -26,19 +27,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: auto;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     color: #4d2323;
 }
-* {
-    box-sizing: border-box;
-}
 header {
+    width: 100%;
+    margin: 0 auto;
     background-color: #92b775;
 }
 .container {
@@ -47,7 +46,8 @@ header {
     min-height: 50px;
 }
 .main {
-    margin-bottom: auto;
+    max-width: 1440px;
+    margin-bottom: auto;    
 }
 .main-conteiner {
     display: flex;
@@ -76,6 +76,49 @@ header {
     letter-spacing: 5px;
     color: #133215;
 }
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+}
+.main-title {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #133215;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+.section-subtitle {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #133215;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+.section-profile {
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    flex: column;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
 .section-list {
     list-style: none;
 }
@@ -95,6 +138,12 @@ header {
     background-size: 14px 14px;
     background-image: url(assets/img/6.svg);
 }
+.section-profile-photo {
+    width: 200;
+    height: 200;
+    object-fit: cover;
+    border-radius: 50%;
+}
 .contacts-link {
     text-decoration: none;
     color: #92b775;
@@ -105,6 +154,10 @@ header {
 }
 .text-color {
     color: #92b775;
+}
+.section-end {
+    width: 45%;
+    margin: 0 20px;
 }
 .link {
     text-decoration: none;
@@ -126,6 +179,7 @@ header {
     color: #133215;
 }
 .footer-conteiner {
+    max-width: 1440px;
     display: flex;
     flex-wrap: nowrap;
 }
