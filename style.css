@@ -122,6 +122,7 @@ header {
     list-style: none;
 }
 .section-item {
+    position: relative;
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
@@ -130,12 +131,97 @@ header {
 .section-item::before {
     content: "";
     position: absolute;
-    bottom: 500px; 
-    left: 65px;
-    width: 14px;
-    height: 14px;
-    background-size: 14px 14px;
+    bottom: 6px; 
+    left: 10px;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
     background-image: url(assets/img/6.svg);
+}
+.section-item-address {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+}
+.section-item-address::before {
+    content: "";
+    position: absolute;
+    bottom: 0px; 
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url(assets/img/1.svg);
+}
+.section-item-email {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+}
+.section-item-email::before {
+    content: "";
+    position: absolute;
+    bottom: 0px; 
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url(assets/img/2.svg);
+}
+.section-item-github {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+}
+.section-item-github::before {
+    content: "";
+    position: absolute;
+    bottom: 0px; 
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url(assets/img/3.svg);
+}
+.section-item-telegram {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+}
+.section-item-telegram::before {
+    content: "";
+    position: absolute;
+    bottom: 0px; 
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url(assets/img/4.svg);
+}
+.section-item-discord {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+}
+.section-item-discord::before {
+    content: "";
+    position: absolute;
+    bottom: 0px; 
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url(assets/img/5.svg);
 }
 .section-profile-photo {
     width: 200;
@@ -178,12 +264,13 @@ header {
     color: #133215;
 }
 .footer-conteiner {
-    max-width: 1440px;
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .rss {
-    width: 500;
-    height: 100;
+    width: 180px;
+    height: 68px;
+    background-size: contain;
     background-image: url(assets/img/rss.svg);
 }
